@@ -109,6 +109,9 @@ body {
   width: 1000px;
   margin: 0 auto;
 }
+.clear {
+  overflow: hidden;
+}
 .headersection {
 }
 .headerleft {
