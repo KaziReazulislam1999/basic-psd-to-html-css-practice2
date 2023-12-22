@@ -113,18 +113,28 @@ body {
   overflow: hidden;
 }
 .headersection {
+  padding: 20px 20px;
+  background: #81201a;
 }
 .headerleft {
+  float: left;
+  padding: 10px 0px;
 }
 
 .headerleft h2 {
+  font-family: Georgia;
+  color: #fff;
+  font-size: 32px;
+  line-height: 32px;
+  padding-bottom: 10px;
 }
 .headerleft p {
+  color: #d2d2d2;
 }
 
 .headerright {
-}
-.headerright {
+  float: right;
+  padding: 19px 0px;
 }
 
 nav {
@@ -132,10 +142,31 @@ nav {
 nav ul {
 }
 nav ul li {
+  float: left;
+  list-style: none;
+  margin-left: 35px;
 }
 nav ul li a {
+  color: #d2d2d2;
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 nav ul li a:hover {
+  border-top: 2px solid #000;
+  padding-top: 15px;
+}
+#active {
+  border-top: 2px solid #000;
+  padding-top: 15px;
+}
+.nav-bottom-text {
+  font-size: 12px;
+  font-family: Arial;
+  text-transform: lowercase;
+  display: block;
+  color: #999999;
 }
 
 .bannersection {
