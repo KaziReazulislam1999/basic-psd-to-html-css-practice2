@@ -251,8 +251,12 @@ nav ul li a:hover {
 }
 
 .footertop {
+  background: #cec6a2;
+  padding: 20px;
 }
 .footertopleft {
+  width: 360px;
+  float: left;
 }
 
 .footerleft h2 {
@@ -262,30 +266,68 @@ nav ul li a:hover {
 }
 
 .footerleft input[type="submit"] {
+  border: none;
+  padding: 5px 10px;
+  background: #fff;
+  margin-top: 10px;
+  color: #666666;
+  margin-right: 10px;
 }
 .footerleft input[type="reset"] {
+  border: none;
+  padding: 5px 10px;
+  background: #fff;
+  margin-top: 10px;
+  color: #666666;
+  margin-right: 10px;
 }
 .footertopright {
 }
 .footerrightinner {
 }
 .samefooterright {
+  width: 190px;
+  float: left;
+  margin-left: 10px;
 }
 
 .samefooterright h2 {
+  font-family: Georgia;
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: normal;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #807c6a;
+  margin-bottom: 20px;
 }
 .samefooterright p {
+  color: #333;
+  line-height: 20px;
 }
 
 .subscribe {
+  width: 570px;
+  margin-left: 10px;
+  padding-top: 20px;
 }
 
 .subscribe p {
+  display: inline-block;
+  background: #e4dfcb;
+  padding: 5px 10px;
 }
 
 .subscribe input[type="email"] {
+  padding: 6px 10px;
+  width: 218px;
+  outline: none;
+  border: none;
 }
 .subscribe input[type="submit"] {
+  border: none;
+  background: #fff;
+  padding: 6px;
+  color: #333;
 }
 
 .footerbottom {
@@ -297,9 +339,63 @@ nav ul li a:hover {
   width: 747px;
   float: left;
 }
-
+.footertopleft h2 {
+  font-family: Georgia;
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: normal;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #807c6a;
+  margin-bottom: 20px;
+}
+textarea {
+  outline: none;
+  border: none;
+  padding: 5px;
+  margin-top: 10px;
+}
+.textinput {
+  float: left;
+}
+.footertopleft p {
+  color: #666;
+  font-size: 13px;
+}
 .footerbottomleft p {
   margin-left: 20px;
+}
+.footertopleft input[type="text"] {
+  border: none;
+  outline: none;
+  padding: 5px;
+  width: 160px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.footertopleft input[type="email"] {
+  border: none;
+  outline: none;
+  padding: 5px;
+  width: 160px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.footertopleft input[type="submit"] {
+  border: none;
+  padding: 5px 10px;
+  background: #fff;
+  margin-top: 10px;
+  color: #666666;
+  margin-right: 10px;
+}
+.footertopleft input[type="reset"] {
+  border: none;
+  padding: 5px 10px;
+  background: #fff;
+  margin-top: 10px;
+  color: #666666;
 }
 .footerbottomright {
   width: 253px;
