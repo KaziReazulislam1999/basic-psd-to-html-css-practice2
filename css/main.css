@@ -179,6 +179,7 @@ nav ul li a:hover {
   width: 100%;
   height: 300px;
   padding-top: 30px;
+  position: relative;
 }
 
 .bannerleft {
@@ -209,20 +210,44 @@ nav ul li a:hover {
 }
 
 .postsection {
+  background: #e4dfcb;
+  height: 360px;
 }
 .postsectioninner {
+  background: #fff;
+  width: 920px;
+  height: 370px;
+  position: absolute;
+  margin-top: -40px;
+  margin-left: 40px;
 }
 .samepost {
+  float: left;
+  width: 266px;
+  height: 330px;
+  padding: 20px 20px;
 }
 
 .samepost img {
+  width: 100%;
 }
 .samepost h3 {
+  margin-top: 15px;
+  border-bottom: 1px solid #6666;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 .samepost ul {
+  margin-top: 15px;
+  margin-left: 15px;
 }
 .samepost li {
+  color: #666;
+  padding-bottom: 5px;
+}
+.samepost p {
+  color: #666;
 }
 
 .footertop {
